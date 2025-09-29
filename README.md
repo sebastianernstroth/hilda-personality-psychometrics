@@ -1,7 +1,7 @@
 # HILDA Personality Measures Validation Study
 
-[![DOI](https://img.shields.io/badge/DOI-10.xxxx/xxxx-blue)](https://doi.org/10.xxxx/xxxx)
-[![OSF](https://img.shields.io/badge/OSF-Project-blue)](https://osf.io/xxxxx/)
+[![DOI](https://img.shields.io/badge/DOI-10.xxxx/xxxx-blue)](https://doi.org/10.17605/osf.io/6gkrq)
+[![OSF](https://img.shields.io/badge/OSF-Project-blue)](https://osf.io/px9gf)
 
 ## Overview
 
