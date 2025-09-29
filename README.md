@@ -27,42 +27,20 @@ This study provides a comprehensive psychometric evaluation of Big Five personal
 ## Repository Structure
 
 ```
-├── README.md                     # This file
-├── manuscript_replication_code.R              # Main analysis controller
-├── scripts/                     # Analysis modules
-│   ├── prepare_hilda_data.R    # HILDA data preparation
-│   ├── participants_and_measures.R    # Sample creation & cleaning
-│   ├── preliminary_analyses.R # Sample characteristics
-│   ├── factor_structure_analysis.R   # Model comparisons & factor correlation
-│   ├── reliability_analysis.R # Internal consistency & test-retest
+├── README.md                             # This file
+├── manuscript_replication_code.R.        # Main analysis controller
+├── scripts/                              # Analysis modules
+│   ├── prepare_hilda_data.R              # HILDA data preparation
+│   ├── participants_and_measures.R       # Sample creation & cleaning
+│   ├── preliminary_analyses.R            # Sample characteristics
+│   ├── factor_structure_analysis.R       # Model comparisons & factor correlation
+│   ├── reliability_analysis.R            # Internal consistency & test-retest
 │   ├── measurement_invariance_analysis.R # Longitudinal invariance testing
-│   ├── validity_analysis.R # Convergent, discriminant, & criterion validity
-│   └── robustness_analysis.R  # Cross-validation & outlier analysis
-├── data/                        # Data directory
-│   ├── raw/ # HILDA data files (user-provided)
-│   └── hilda-dataset.qs        # Prepared HILDA dataset
-├── output/                      # Analysis results
-│   ├── data/                 # Processed data files
-│   ├── participants/                # Participants and measures results
-│   ├── preliminary/                # Preliminary analyses results
-│   ├── factor_structure/                # Factor structure analysis results
-│   ├── reliability/                # Reliability analysis results
-│   ├── measurement_invariance/                # Measurement invariance analysis results
-│   ├── validity/                # Validity analysis results
-│   ├── robustness/                # Robustness analysis results
-│   └── logs/                # Execution logs
-├── manuscript/                  # Manuscript files
-│   ├── manuscript.tex          # Main manuscript
-│   ├── tables/                 # LaTeX tables
-│   └── figures/        # LaTeX figures
-├── supplemental materials/                  # Supplemental Materials files
-│   ├── supplement.tex          # supplemental materials
-│   ├── tables/                 # LaTeX tables
-│   └── figures/        # LaTeX figures
-├── renv/               # Reproducibility library
-├── renv.lock               # Package versions
-└── environment/                 # Reproducibility environment
-    └── session_info.txt        # R session information
+│   ├── validity_analysis.R               # Convergent, discriminant, & criterion validity
+│   └── robustness_analysis.R             # Cross-validation & outlier analysis
+├── .gitignore                            # Gitignore file
+├── LICENSE                               # License file
+└── renv.lock                             # Package versions
 ```
 
 ## Requirements
